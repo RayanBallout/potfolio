@@ -53,10 +53,21 @@ textarea {
 	color: var(--color-white);
 }
 
+.message__success {
+	width: 100%;
+	background: var(--color-bg-variant);
+	padding: 1rem;
+	border-radius: 0.7rem;
+	text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
 	.container.contact__container {
 		grid-template-columns: 1fr;
 		gap: 2rem;
+	}
+	form .btn-primary {
+		width: 100%;
 	}
 }
 

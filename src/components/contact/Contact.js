@@ -1,11 +1,34 @@
-import React from "react"
+import React, { useRef, useState } from "react"
 import "./contact.css"
 
 import { MdOutlineEmail } from "react-icons/md"
 import { RiMessengerLine } from "react-icons/ri"
 import { BsWhatsapp } from "react-icons/bs"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
+	const form = useRef()
+	const [messageSent, setMessageSent] = useState(false)
+
+	const sendEmail = (e) => {
+		e.preventDefault()
+
+		emailjs
+			.sendForm(
+				"service_vvvdqzl",
+				"template_ktmttgp",
+				form.current,
+				"ohkC6QkmLrdECVp8N"
+			)
+			.then(() => {
+				e.target.reset()
+				setMessageSent(true)
+			})
+			.catch((error) => {
+				console.log(error)
+				alert("An error occured while trying to send the message")
+			})
+	}
 	return (
 		<section id="contact">
 			<h5>Get In Touch</h5>
@@ -41,7 +64,7 @@ const Contact = () => {
 						</a>
 					</article>
 				</div>
-				<form action="">
+				<form ref={form} onSubmit={sendEmail}>
 					<input
 						type="text"
 						name="name"
@@ -63,6 +86,11 @@ const Contact = () => {
 					<button type="submit" className="btn btn-primary">
 						Send Message
 					</button>
+					{messageSent && (
+						<div className="message__success">
+							Thank you! Your message has been recieved!
+						</div>
+					)}
 				</form>
 			</div>
 		</section>
