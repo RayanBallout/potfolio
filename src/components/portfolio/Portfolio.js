@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.jpg"
+import { FaGithub } from "react-icons/fa"
 
 const Portfolio = () => {
 	return (
@@ -18,8 +19,14 @@ const Portfolio = () => {
 						<img src={IMG1} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
@@ -32,8 +39,14 @@ const Portfolio = () => {
 						<img src={IMG2} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
@@ -46,8 +59,14 @@ const Portfolio = () => {
 						<img src={IMG3} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
@@ -60,8 +79,14 @@ const Portfolio = () => {
 						<img src={IMG4} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
@@ -74,8 +99,14 @@ const Portfolio = () => {
 						<img src={IMG5} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
@@ -88,8 +119,14 @@ const Portfolio = () => {
 						<img src={IMG6} alt="" />
 					</div>
 					<h3>This is a portfolio item title</h3>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Amet possimus obcaecati soluta architecto repellat
+						nemo officiis corporis dolorem libero molestias!
+					</p>
 					<div className="portfolio__items-cta">
-						<a href="" className="btn" target="_blank">
+						<a href="" className="btn github__btn" target="_blank">
+							<FaGithub />
 							Github
 						</a>
 						<a href="" className="btn btn-primary" target="_blank">
