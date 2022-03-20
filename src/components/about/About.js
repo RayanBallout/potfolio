@@ -1,6 +1,6 @@
 import React from "react"
 import "./about.css"
-import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/square-img.png"
 import { FaAward } from "react-icons/fa"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
@@ -36,11 +36,11 @@ const About = () => {
 						</article>
 					</div>
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Accusamus mollitia repellendus ducimus rerum harum
-						libero autem quo exercitationem odit deserunt incidunt
-						vel hic suscipit at excepturi reiciendis molestias, et
-						distinctio.
+						I am a junior full stack web developer based in Lebanon.
+						On the road and aspiring to be a senior full stack web
+						developer. I am always in search for greater
+						opportunities, and open to work or projects if it suits
+						my capabilities.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">

@@ -16,121 +16,95 @@ const Services = () => {
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Develop frontend for websites from a psd or
+								sketch files
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Develop responsive websites to accomodate all
+								screens
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Develop using React.js framework or pure HTML
+								and CSS
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Gatsby and Graphql implementations</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Using bootstrap CSS framework for mobile first
+								approach
 							</p>
 						</li>
 					</ul>
 				</article>
 				<article className="service">
 					<div className="service__head">
-						<h3>Frontend Development</h3>
+						<h3>Backend Development</h3>
 					</div>
 					<ul className="service__list">
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								WodPress backend development for a custom theme
+								implementation
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Custom theme development using gutenburg blocks
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
+								Database structuring according to specifications
 							</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Develop PHP MVC application</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Develop using Google Firebase BAAS</p>
 						</li>
 					</ul>
 				</article>
 				<article className="service">
 					<div className="service__head">
-						<h3>Frontend Development</h3>
+						<h3>Website Management</h3>
 					</div>
 					<ul className="service__list">
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Content management for already found websites</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Website maintenance</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>WordPress elementor theme development</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Website uplifting</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>
-								Lorem ipsum dolor sit, amet consectetur
-								adipisicing elit.
-							</p>
+							<p>Premade template implementation</p>
 						</li>
 					</ul>
 				</article>
