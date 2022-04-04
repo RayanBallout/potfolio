@@ -62,7 +62,8 @@ const Services = () => {
 						<li>
 							<BiCheck className="service__list-icon" />
 							<p>
-								Custom theme development using gutenburg blocks
+								Development using MongoDB, Express and Node.js
+								(MERN stack)
 							</p>
 						</li>
 						<li>
